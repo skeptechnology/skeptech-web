@@ -12,16 +12,6 @@ const routes: Routes = [
   },
   {
     path: '',
-    component: AuthLayoutComponent,
-    children: [
-      {
-        path: 'sessions',
-        loadChildren: './views/sessions/sessions.module#SessionsModule'
-      }
-    ]
-  },
-  {
-    path: '',
     component: LandingLayoutComponent,
     children: [
       {

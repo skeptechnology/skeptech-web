@@ -28,9 +28,9 @@ export class ContactFormComponent implements OnInit {
     this.formValues.name = form.value.name;
     this.formValues.subject = form.value.subject;
     this.formValues.message = form.value.message;
+
+
+    
     this.success=true;
-
-
-
   }
 }

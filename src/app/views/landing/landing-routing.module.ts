@@ -2,7 +2,6 @@ import { NgModule } from "@angular/core";
 import { BlogDetailsPageComponent } from './blog-details-page/blog-details-page.component';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingMainComponent } from './main/landing-main.component';
-import { DemosComponent } from './components/demos/demos.component';
 
 const routes: Routes = [
   {
@@ -12,10 +11,6 @@ const routes: Routes = [
   {
     path: "blog-details",
     component: BlogDetailsPageComponent
-  },
-   {
-    path: "demos",
-    component: DemosComponent
   }
 ];
 
