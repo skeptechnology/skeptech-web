@@ -2,9 +2,11 @@
 # https://skeptechnology.github.io/skeptech-web/
 # https://skeptechnology.github.io/skeptech-web/index.html
 
+# to host via github pages ULR:
 ng build --prod --base-href https://skeptechnology.github.io/skeptech-web/ 
 ngh -no-silent
-# or, if you want to use a custom domain
+
+# or, if you want to use a custom domain:
 ng build --prod --base-href http://skeptech.com/ 
 ngh -no-silent
 
